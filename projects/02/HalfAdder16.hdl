@@ -1,0 +1,27 @@
+/*
+*Half adder
+*
+*/
+
+CHIP HalfAdder16{
+
+  IN a[16],b[16];
+  OUT sum[16],carry[16];
+  PARTS:
+  HalfAdder(a=a[0],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[1],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[2],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[3],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[4],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[5],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[6],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[7],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[8],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[9],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[10],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[11],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[0],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[0],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[0],b=b[0],sum=sum[0],carry=carry[0]);
+  HalfAdder(a=a[0],b=b[0],sum=sum[0],carry=carry[0]);
+}
